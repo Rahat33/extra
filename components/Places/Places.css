@@ -1,0 +1,14 @@
+.places-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    margin: 40px;
+}
+.place-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    grid-row-gap: 30px;
+}
+.spot-list-container{
+    border-left: 1px solid rgba(128, 128, 128, 0.192);
+}
